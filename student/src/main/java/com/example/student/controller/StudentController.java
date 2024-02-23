@@ -21,7 +21,7 @@ import com.example.student.service.IStudentService;
 @RequestMapping("/api")
 @RestController
 public class StudentController {
-	
+	 
 	@Autowired
 	private IStudentService studentService;
 	
